@@ -17,7 +17,6 @@ Mục tiêu: **Dự đoán tuổi và giới tính từ ảnh khuôn mặt** v�
 - Kiến trúc **encoder–decoder với skip connections** giúp trích xuất đặc trưng ở nhiều cấp độ, tối ưu cho việc phân biệt giới tính từ đặc trưng khuôn mặt tinh vi.  
 - Tuy nhiên do giới hạn phần cứng nhóm rất tiết đã không triển khai toàn diện thành một ứng dụng nào.
 ---
-
 ## 📊 Kết quả thực nghiệm
 
 | Mô hình       | Nhiệm vụ           | Kết quả |
@@ -26,11 +25,13 @@ Mục tiêu: **Dự đoán tuổi và giới tính từ ảnh khuôn mặt** v�
 | MobileNets    | Dự đoán tuổi       | MAE = 2.248 (LR = 0.001) |
 | EfficientNets | Tuổi & Giới tính   | Hiệu suất tốt, nhưng không vượt U-Net ở giới tính |
 
-Đây là kết quả quá trình huấn luyện mô hình Unet của tôi
-<img width="503" height="700" alt="image" src="https://github.com/user-attachments/assets/ca1e0b33-f2ec-4afa-964e-255417c53dce" />
-
 ---
 
+📷 Kết quả quá trình huấn luyện mô hình **U-Net**:
+
+![Training Results](https://github.com/user-attachments/assets/ca1e0b33-f2ec-4afa-964e-255417c53dce)
+
+---
 ## ⚙️ Công nghệ
 - Python  
 - TensorFlow / PyTorch  
