@@ -19,11 +19,7 @@ Mục tiêu: **Dự đoán tuổi và giới tính từ ảnh khuôn mặt** v�
 ---
 ## 📊 Kết quả thực nghiệm
 
-| Mô hình       | Nhiệm vụ           | Kết quả |
-|---------------|--------------------|---------|
-| **U-Net**     | Dự đoán giới tính  | **Accuracy = 97.22%** |
-| MobileNets    | Dự đoán tuổi       | MAE = 2.248 (LR = 0.001) |
-| EfficientNets | Tuổi & Giới tính   | Hiệu suất tốt, nhưng không vượt U-Net ở giới tính |
+![Experimental Results](https://github.com/user-attachments/assets/4d311929-0d78-4683-8991-dcbafe8db68a)
 
 ---
 
